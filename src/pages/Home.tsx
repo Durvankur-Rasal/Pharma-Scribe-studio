@@ -5,7 +5,6 @@ import WhyChooseUs from '@/components/home/WhyChooseUs';
 import HowItWorks from '@/components/home/HowItWorks';
 import PricingSection from '@/components/home/PricingSection';
 import SampleArticles from '@/components/home/SampleArticles';
-import OrderForm from '@/components/home/OrderForm';
 import AboutSection from '@/components/home/AboutSection';
 import ContactSection from '@/components/home/ContactSection';
 
@@ -43,7 +42,6 @@ const Home = () => {
       <HowItWorks />
       <PricingSection />
       <SampleArticles />
-      <OrderForm />
       <AboutSection />
       <ContactSection />
     </div>

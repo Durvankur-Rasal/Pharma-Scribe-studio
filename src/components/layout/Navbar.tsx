@@ -46,7 +46,7 @@ const Navbar = () => {
           
           <div className="hidden md:block">
             <Button className="bg-brand-600 hover:bg-brand-700">
-              <Link to="/#order">Request Article</Link>
+              <Link to="/#contact">Contact Us</Link>
             </Button>
           </div>
           
@@ -108,11 +108,11 @@ const Navbar = () => {
               Contact
             </Link>
             <Link 
-              to="/#order" 
+              to="/#contact" 
               className="block px-3 py-2 rounded-md text-base font-medium bg-brand-600 text-white hover:bg-brand-700"
               onClick={() => setIsMenuOpen(false)}
             >
-              Request Article
+              Contact Us
             </Link>
           </div>
         </div>
