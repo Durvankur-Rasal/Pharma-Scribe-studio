@@ -7,8 +7,23 @@ import PricingSection from '@/components/home/PricingSection';
 import SampleArticles from '@/components/home/SampleArticles';
 import AboutSection from '@/components/home/AboutSection';
 import ContactSection from '@/components/home/ContactSection';
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
+
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const section = document.querySelector(location.hash);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
+  
   useEffect(() => {
     const handleScroll = () => {
       const elements = document.querySelectorAll('.animate-on-scroll');

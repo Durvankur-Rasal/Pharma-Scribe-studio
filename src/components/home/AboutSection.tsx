@@ -75,7 +75,7 @@ const AboutSection = () => {
             </div>
             <div className="absolute top-6 -left-6 w-full h-full bg-accent-200 rounded-xl -z-10"></div>
             
-            <div className="absolute -bottom-8 -right-8 bg-white p-6 rounded-xl shadow-lg w-64">
+            {/* <div className="absolute -bottom-8 -right-8 bg-white p-6 rounded-xl shadow-lg w-64">
               <div className="flex items-center mb-3">
                 <div className="w-10 h-10 rounded-full bg-accent-100 flex items-center justify-center mr-3">
                   <svg className="w-6 h-6 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -102,7 +102,7 @@ const AboutSection = () => {
                   Drug Delivery Systems
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -19,10 +19,10 @@ const ContactSection = () => {
                 <Smartphone className="w-7 h-7 text-brand-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">WhatsApp</h3>
-              <p className="text-gray-600 text-lg mb-4">+91 9876543210</p>
+              <p className="text-gray-600 text-lg mb-4">+91 7823021193</p>
               <Button 
                 className="w-full bg-green-500 hover:bg-green-600"
-                onClick={() => window.open("https://wa.me/919876543210", "_blank")}
+                onClick={() => window.open("https://wa.me/917823021193", "_blank")}
               >
                 <MessageSquare className="w-5 h-5 mr-2" />
                 Chat on WhatsApp
@@ -34,10 +34,10 @@ const ContactSection = () => {
                 <Mail className="w-7 h-7 text-brand-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Email</h3>
-              <p className="text-gray-600 text-lg mb-4">contact@reviewscribestudio.com</p>
+              <p className="text-gray-600 text-lg mb-4">rushiwable9393@gmail.com</p>
               <Button 
                 className="w-full"
-                onClick={() => window.location.href = "mailto:contact@reviewscribestudio.com"}
+                onClick={() => window.location.href = "rushiwable9393@gmail.com"}
               >
                 <Mail className="w-5 h-5 mr-2" />
                 Send an Email
@@ -49,10 +49,10 @@ const ContactSection = () => {
                 <Phone className="w-7 h-7 text-brand-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Phone</h3>
-              <p className="text-gray-600 text-lg mb-4">+91 9876543210</p>
+              <p className="text-gray-600 text-lg mb-4">+91 7823021193</p>
               <Button 
                 className="w-full bg-blue-500 hover:bg-blue-600"
-                onClick={() => window.location.href = "tel:+919876543210"}
+                onClick={() => window.location.href = "tel:+917823021193"}
               >
                 <Phone className="w-5 h-5 mr-2" />
                 Call Now
@@ -91,7 +91,7 @@ const ContactSection = () => {
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Connect on Social Media</h3>
             <div className="flex justify-center space-x-6">
               <a 
-                href="https://instagram.com" 
+                href="https://instagram.com/pharma_scribe_studio.360/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-14 h-14 rounded-full bg-white shadow-md flex items-center justify-center text-gray-600 hover:text-brand-600 hover:shadow-lg transition-all duration-300 transform hover:scale-110"
@@ -99,7 +99,7 @@ const ContactSection = () => {
                 <Instagram size={28} />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://linkedin.com/in/rushi-wable-a51819360/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-14 h-14 rounded-full bg-white shadow-md flex items-center justify-center text-gray-600 hover:text-brand-600 hover:shadow-lg transition-all duration-300 transform hover:scale-110"

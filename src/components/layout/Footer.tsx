@@ -9,15 +9,15 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-gray-800">ReviewScribeStudio</h3>
+            <h3 className="text-lg font-bold text-gray-800">Pharma Scribe Studio</h3>
             <p className="text-gray-600 max-w-sm">
               Professional review articles for Pharma, Medicine, and Life Sciences students. Custom written and plagiarism-free.
             </p>
             <div className="flex space-x-4">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-brand-600">
+              <a href="https://instagram.com/pharma_scribe_studio.360/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-brand-600">
                 <Instagram size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-brand-600">
+              <a href="https://linkedin.com/in/rushi-wable-a51819360/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-brand-600">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -52,11 +52,11 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <Phone size={18} className="text-gray-500" />
-                <span className="text-gray-600">+91 9876543210</span>
+                <span className="text-gray-600">+91 7823021193</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={18} className="text-gray-500" />
-                <span className="text-gray-600">contact@reviewscribestudio.com</span>
+                <span className="text-gray-600">rushiwable9393@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -64,7 +64,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-gray-200">
           <p className="text-center text-gray-600 text-sm">
-            &copy; {new Date().getFullYear()} ReviewScribeStudio. All rights reserved.
+            &copy; {new Date().getFullYear()} Pharma Scribe Studio. All rights reserved.
           </p>
           <p className="text-center text-gray-500 text-sm mt-2 max-w-2xl mx-auto">
             Legal note: Articles are for academic guidance and should be used ethically. Our services are designed to assist with research and learning.

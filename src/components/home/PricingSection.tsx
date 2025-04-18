@@ -29,7 +29,7 @@ const PricingSection = () => {
     },
     {
       name: 'Advanced Article',
-      price: '₹190',
+      price: '₹90',
       unit: '/page',
       description: 'Ideal for detailed graduate-level reviews',
       features: [

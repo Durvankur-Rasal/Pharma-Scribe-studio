@@ -24,7 +24,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
             <Button className="bg-brand-600 hover:bg-brand-700 text-lg px-8 py-6 rounded-lg" size="lg">
-              <a href="#order" className="flex items-center">
+              <a href="#contact" className="flex items-center">
                 Request a Review Article
                 <ChevronRight className="ml-2" size={20} />
               </a>
@@ -37,7 +37,7 @@ const HeroSection = () => {
         
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
           <div className="relative w-full max-w-md">
-            <div className="absolute -left-4 -top-4 w-full h-full bg-accent-200 rounded-lg"></div>
+            <div className="absolute -left-6 -top-6 w-full h-full bg-accent-200 rounded-lg"></div>
             <img 
               src="https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixlib=rb-1.2.1&auto=format&fit=crop&q=80" 
               alt="Academic papers" 
