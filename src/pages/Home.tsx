@@ -6,6 +6,7 @@ import HowItWorks from '@/components/home/HowItWorks';
 import PricingSection from '@/components/home/PricingSection';
 import SampleArticles from '@/components/home/SampleArticles';
 import AboutSection from '@/components/home/AboutSection';
+import TrendedJournalSection from '@/components/home/JournalSection';
 import ContactSection from '@/components/home/ContactSection';
 import { useLocation } from "react-router-dom";
 
@@ -53,6 +54,7 @@ const Home = () => {
   return (
     <div className="min-h-screen overflow-x-hidden">
       <HeroSection />
+      <TrendedJournalSection/>
       <WhyChooseUs />
       <HowItWorks />
       <PricingSection />

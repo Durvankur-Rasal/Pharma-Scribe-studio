@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
     },
     {
       title: 'Plagiarism-Free',
-      description: 'All content is 100% original and passes through rigorous plagiarism checking.',
+      description: 'All content is 80-90% original and passes through rigorous plagiarism checking.',
       icon: <FileCheck className="w-10 h-10 text-brand-600" />,
     },
     {

@@ -29,7 +29,7 @@ const PricingSection = () => {
     },
     {
       name: 'Advanced Article',
-      price: '₹90',
+      price: '₹150',
       unit: '/page',
       description: 'Ideal for detailed graduate-level reviews',
       features: [
@@ -54,12 +54,12 @@ const PricingSection = () => {
   const addOns = [
     {
       name: 'Plagiarism Report',
-      price: '₹350',
+      price: '₹500',
       description: 'Detailed originality report from premium plagiarism detection software',
     },
     {
       name: 'Fast Delivery',
-      price: '₹500',
+      price: '₹400',
       description: '48-hour turnaround for urgent requirements',
     },
     {

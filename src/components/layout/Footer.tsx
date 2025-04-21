@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Mail, Phone, Instagram, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -68,6 +67,9 @@ const Footer = () => {
           </p>
           <p className="text-center text-gray-500 text-sm mt-2 max-w-2xl mx-auto">
             Legal note: Articles are for academic guidance and should be used ethically. Our services are designed to assist with research and learning.
+          </p>
+          <p className="text-center text-gray-400 text-xs mt-4 max-w-2xl mx-auto">
+            Disclaimer: Pharma Scribe Studio provides academic support and simplified review content for study purposes only. We do not offer services for writing academic assignments, thesis submissions, or examination materials.
           </p>
         </div>
       </div>
