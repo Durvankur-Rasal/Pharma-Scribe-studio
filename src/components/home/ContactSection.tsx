@@ -10,6 +10,11 @@ import {
 import { Button } from '@/components/ui/button';
 
 const ContactSection = () => {
+  // Function to handle email click
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:rushiwable9393@gmail.com';
+  };
+
   return (
     <section
       id="contact"
@@ -34,11 +39,11 @@ const ContactSection = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 WhatsApp
               </h3>
-              <p className="text-gray-600 text-lg mb-4">+91 78230 21193</p>
+              <p className="text-gray-600 text-lg mb-4">Pharma_scribe_Studio.360</p>
               <Button
                 className="w-full bg-green-500 hover:bg-green-600"
                 onClick={() =>
-                  window.open('https://wa.me/917823021193', '_blank')
+                  window.open('https://chat.whatsapp.com/BdEUXCyHD3v121cuXvaYq4', '_blank')
                 }
               >
                 <MessageSquare className="w-5 h-5 mr-2" />
@@ -57,13 +62,23 @@ const ContactSection = () => {
               <p className="text-gray-600 text-lg mb-4">
                 rushiwable9393@gmail.com
               </p>
-              {/* Use asChild to render a real <a> tag */}
-              <Button asChild className="w-full">
-                <a href="rushiwable9393@gmail.com">
-                  <Mail className="w-5 h-5 mr-2" />
-                  Send an Email
-                </a>
+              {/* Solution 1: Direct button with onClick handler */}
+              <Button 
+                className="w-full"
+                onClick={handleEmailClick}
+              >
+                <Mail className="w-5 h-5 mr-2" />
+                Send an Email
               </Button>
+              
+              {/* Alternative email link hidden in case needed */}
+              <a 
+                href="mailto:rushiwable9393@gmail.com" 
+                className="hidden"
+                id="email-fallback"
+              >
+                Email fallback
+              </a>
             </div>
 
             {/* Phone Card */}
@@ -74,7 +89,7 @@ const ContactSection = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 Phone
               </h3>
-              <p className="text-gray-600 text-lg mb-4">+91 78230 21193</p>
+              <p className="text-gray-600 text-lg mb-4">+91 78230 21193</p>
               <Button
                 className="w-full bg-blue-500 hover:bg-blue-600"
                 onClick={() => (window.location.href = 'tel:+917823021193')}

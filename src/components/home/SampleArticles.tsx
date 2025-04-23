@@ -160,7 +160,7 @@ const SampleArticles = () => {
 
         <div className="text-center mt-12">
           <Button className="bg-accent-600 hover:bg-accent-700">
-            <a href="#contact">Request a Custom Article</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPXVsHJ3Yys-wjPTf239UHnQFC-t-2NPgv3f8Fq-Nhwo-wbg/viewform?usp=header">Request a Custom Article</a>
           </Button>
         </div>
       </div>

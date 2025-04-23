@@ -24,7 +24,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
             <Button className="bg-brand-600 hover:bg-brand-700 text-lg px-8 py-6 rounded-lg" size="lg">
-              <a href="#contact" className="flex items-center">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPXVsHJ3Yys-wjPTf239UHnQFC-t-2NPgv3f8Fq-Nhwo-wbg/viewform?usp=header" className="flex items-center">
                 Request a Review Article
                 <ChevronRight className="ml-2" size={20} />
               </a>
